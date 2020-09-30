@@ -1,11 +1,12 @@
 Quản lý ngân hàng --
-Bank(BankID,BankName,BankAddress,BankPhone)
-Customers(CustomersID,CustomersName,CustomersPhone,CustomersEmail,Sex,CustomersCMND,DateBecameCustomer,Login,Password,Balance)
-Card(CardID,CardNumber,CustomersName)
-Employee(EmpID,EmpName,EmpEmail,EmpAdress,EmpPhone,E)
+Customers(CustomersID,CustomersName,CustomersPhone,CustomersCMND,CustomersEmail,Nationality,Sex)
+Account(AccountID,Customers,AccountType,Fee,EmployeeID)
+Transaction(TransID,AccountID,TransType,Ammount,TransDate)
+Employee(EmployeeID,EmployeeName,EmployeeRole,EmployeeSalary,DepartmentID)
+Department(DepartmentID,DepartmentName)
 
-
-
+ERD Diagram
+--
 
 
 
@@ -13,3 +14,8 @@ Employee(EmpID,EmpName,EmpEmail,EmpAdress,EmpPhone,E)
 ﻿--create database Project
 CREATE DATABASE QuanLyNganHang
 DROP DATABASE QuanLyNganHang
+
+
+CREATE TABLE 
+
+
