@@ -1,0 +1,15 @@
+Quản lý ngân hàng --
+Bank(BankID,BankName,BankAddress,BankPhone)
+Customers(CustomersID,CustomersName,CustomersPhone,CustomersEmail,Sex,CustomersCMND,DateBecameCustomer,Login,Password,Balance)
+Card(CardID,CardNumber,CustomersName)
+Employee(EmpID,EmpName,EmpEmail,EmpAdress,EmpPhone,E)
+
+
+
+
+
+
+--Code
+﻿--create database Project
+CREATE DATABASE QuanLyNganHang
+DROP DATABASE QuanLyNganHang
